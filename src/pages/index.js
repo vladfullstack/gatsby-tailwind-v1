@@ -19,7 +19,7 @@ const IndexPage = () => (
       <h1 className={styles.heading}>Welcome to Gatsby and Azure</h1>
       <div>
         <p>Gatsby is a good framework to upskill your React!</p>
-        <p>
+        <p className="text-3xl">
           Though it may not look like much, it holds all the essentials you'll
           need to get started building your own sites with Gatsby.
         </p>
