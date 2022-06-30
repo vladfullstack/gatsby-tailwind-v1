@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-lil-learning-gatsby",
+  "name": "gatsby-tailwind-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "An opinionated starter for Gatsby",
-  "author": "@mor10",
-  "license": "LinkedIn Learning Exercise Files License Agreement",
+  "description": "An opinionated starter for Gatsby and taiwind",
+  "author": "@VladFullstack",
+  "license": "MIT",
   "keywords": [
-    "gatsby, linkedin learning, lil"
+    "gatsby, tailwind"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -35,13 +35,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LinkedInLearning/learning-gatsby-3156789"
-  },
-  "bugs": {
-    "url": "https://github.com/LinkedInLearning/learning-gatsby-3156789/issues"
-  },
+  "repository": {},
+  "bugs": {},
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "gatsby-plugin-postcss": "^5.17.0",
