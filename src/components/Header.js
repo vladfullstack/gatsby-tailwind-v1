@@ -98,10 +98,10 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
         {/* <!-- heading --> */}
         <h1 className="opacity-20 font-fun mb-4 text-5xl lg:text-6xl font-extrabold">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500">
-            Love You{" "}
+            Beginner{" "}
           </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-purple-600 to-purple-500">
-            Mira
+            Tailwind
           </span>
         </h1>
 
