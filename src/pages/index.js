@@ -292,6 +292,135 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+
+    {/* <!-- ======================================= -->
+  <!-- what we'll build ======================================= -->
+  <!-- ======================================= --> */}
+    <div id="build" className="py-24 bg-gray-300 text-gray-600">
+      <div className="container mx-auto px-10">
+        <div className="mb-8 text-center">
+          <h2 className="mb-2 text-5xl text-gray-800">What We'll Build</h2>
+          <p className="text-lg text-gray-700">
+            These components are things you'll have to create in every project.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Buttons</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-green-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Cards</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-purple-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Footer</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-blue-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Header</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-red-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Buttons</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-green-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Cards</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-purple-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Footer</div>
+          </div>
+          <div className="flex bg-white rounded shadow">
+            <div className="w-1/5 flex items-center justify-center text-3xl bg-blue-500 rounded-l">
+              😍
+            </div>
+            <div className="p-4">Header</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/*<!-- ======================================= -->
+  <!-- pricing ======================================= -->
+  <!-- ======================================= --> */}
+    <div id="pricing" className="relative bg-blue-600 py-32 text-blue-200">
+      {/* <!-- gray box for the top section --> */}
+      <div className="absolute top-0 inset-x-0 h-48 bg-gray-300"></div>
+
+      <div className="container mx-auto px-10 flex flex-col lg:flex-row items-center lg:space-x-8 space-y-4 lg:space-y-0">
+        {/* <!-- left box --> */}
+        <div className="order-2 lg:order-1 lg:w-1/3 pt-12 text-center lg:text-right space-y-2 text-xl">
+          <p>
+            <strong className="font-bold text-white">XY videos</strong> at a
+            smooth pace
+          </p>
+          <p>
+            <strong className="font-bold text-white">AB hours</strong> of
+            learning + building
+          </p>
+          <p>
+            <strong className="font-bold text-white">Source code</strong> and
+            CodePens
+          </p>
+        </div>
+
+        {/* <!-- pricing box --> */}
+        <div className="order-1 lg:order-2 relative w-full lg:w-1/3 bg-white p-8 text-gray-800 rounded shadow-2xl border-8 border-purple-700 text-center space-y-4 transform hover:scale-105 transition duration-500">
+          {/* <!-- showoff beam thingy --> */}
+          <div className="absolute top-0 inset-x-0 transform -translate-y-full flex items-end justify-center space-x-8">
+            <div className="w-2 h-16 mb-8 bg-red-500 rounded transform -rotate-45 origin-bottom"></div>
+            <div className="w-2 h-24 mb-8 bg-yellow-500 rounded"></div>
+            <div className="w-2 h-16 mb-8 bg-green-500 rounded transform rotate-45 origin-bottom"></div>
+          </div>
+
+          <h4 className="text-gray-600 text-sm">
+            Start Tailwind<span className="italic">-ing</span>!
+          </h4>
+          <div className="text-6xl text-purple-800 font-bold">
+            <span className="opacity-25">$</span>47
+          </div>
+          <a
+            href="#"
+            className="block p-3 bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-400 text-yellow-800 hover:text-yellow-900 rounded shadow hover:shadow-2xl transition duration-300"
+          >
+            Buy the Course
+          </a>
+        </div>
+
+        {/* <!-- right box --> */}
+        <div className="order-3 lg:w-1/3 pt-12 space-y-2 text-center lg:text-left text-xl">
+          <p>
+            Use the code{" "}
+            <strong className="font-bold text-white">for your projects</strong>
+          </p>
+          <p>
+            Access to <strong className="font-bold text-white">Discord</strong>{" "}
+            for support
+          </p>
+          <p>
+            <strong className="font-bold text-white">Lifetime</strong> refund
+            guarantee
+          </p>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
