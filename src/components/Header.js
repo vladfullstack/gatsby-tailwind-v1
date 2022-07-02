@@ -53,7 +53,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
             About
           </Link>
           <Link
-            to="#about"
+            to="#learn"
             className="hidden lg:inline-block hover:text-gray-900"
           >
             What You'll Learn

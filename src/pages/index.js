@@ -131,44 +131,167 @@ const IndexPage = () => (
       </div>
     </div>
 
-  {/* <!-- ======================================= -->
+    {/* <!-- ======================================= -->
   <!-- about me ======================================= -->
   <!-- ======================================= --> */}
-  <div className="lg:pt-12 pb-24 bg-gray-300 lg:text-center">
-    <div className="container mx-auto px-10">
+    <div className="lg:pt-12 pb-24 bg-gray-300 lg:text-center">
+      <div className="container mx-auto px-10">
+        <h2 className="mb-3 text-3xl lg:text-6xl font-bold text-teal-900">
+          Some Tailwind Videos I've Done
+        </h2>
 
-      <h2 className="mb-3 text-3xl lg:text-6xl font-bold text-teal-900">Some Tailwind Videos I've Done</h2>
+        <p className="mb-12 lg:text-xl leading-loose">
+          Hey there! My name is{" "}
+          <Link
+            to="https://twitter.com/chris__sev"
+            className="text-blue-500 hover:underline"
+          >
+            Chris Sev
+          </Link>{" "}
+          and I founded a web dev tutorial site Scotch.io. We were able to grow
+          to 4M monthly pageviews and $300,000 yearly revenue. Scotch.io was
+          acquired by DigitalOcean in November 2019. Nowadays I'm in search of
+          the best ways to develop and design a business. Hope you enjoy this
+          course and my other one MakeReactApps.com.
+        </p>
 
-      <p className="mb-12 lg:text-xl leading-loose">Hey there! My name is <Link to="https://twitter.com/chris__sev"
-          className="text-blue-500 hover:underline">Chris Sev</Link> and I founded a web dev
-        tutorial site Scotch.io. We were able to grow to 4M monthly
-        pageviews and $300,000 yearly revenue. Scotch.io was acquired by DigitalOcean in November 2019. Nowadays I'm in
-        search
-        of the best ways to develop and design a business. Hope you enjoy this course and my other one
-        MakeReactApps.com.</p>
+        {/* <!-- videos --> */}
+        <div className="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
+          <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
+            <p className="text-lg p-4 text-gray-700">
+              Getting Started with Tailwind on scotch.io and a 15 minute starter
+              YouTube video.
+            </p>
 
-      {/* <!-- videos --> */}
-      <div className="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
-        <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
-          <p className="text-lg p-4 text-gray-700">Getting Started with Tailwind on scotch.io and a 15
-            minute starter YouTube video.</p>
+            <iframe
+              title="Getting Started with Tailwind on scotch.io"
+              className="w-full rounded-b"
+              height="315"
+              src="https://www.youtube.com/embed/6zIuAyLZPH0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
+            <p className="text-lg p-4 text-gray-700">
+              I did a Build Your 1st Tailwind Site for Traversy Media on YouTube
+              also.
+            </p>
 
-          <iframe title="Getting Started with Tailwind on scotch.io" className="w-full rounded-b" height="315" src="https://www.youtube.com/embed/6zIuAyLZPH0" frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </div>
-        <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
-          <p className="text-lg p-4 text-gray-700">I did a Build Your 1st Tailwind Site for Traversy Media on YouTube also.
-          </p>
-
-          <iframe title="Build Your 1st Tailwind Site" className="w-full rounded-b" height="315" src="https://www.youtube.com/embed/6zIuAyLZPH0" frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe
+              title="Build Your 1st Tailwind Site"
+              className="w-full rounded-b"
+              height="315"
+              src="https://www.youtube.com/embed/6zIuAyLZPH0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </div>
-
     </div>
-  </div>
 
+    {/* <!-- ======================================= -->
+  <!-- what youll learn ======================================= -->
+  <!-- ======================================= --> */}
+    <div id="learn" className="py-32 bg-gray-200 text-gray-700">
+      <div className="container mx-auto px-10">
+        {/* <!-- header --> */}
+        <div className="relative">
+          <h2 className="mb-24 text-4xl lg:text-6xl text-center font-bold text-purple-900">
+            What You'll Learn In This Course
+          </h2>
+          <div className="absolute top-0 left-0 w-1/3 h-2 rounded bg-gradient-to-r from-blue-400 to-purple-600 transform -translate-y-4"></div>
+          <div className="absolute bottom-0 right-0 w-1/3 h-2 rounded bg-gradient-to-r from-purple-400 to-blue-600 transform translate-y-4"></div>
+        </div>
 
+        {/* <!-- grid area of things --> */}
+        <div className="lg:grid grid-cols-6 gap-10 space-y-8 lg:space-y-0">
+          <div className="col-span-2 border border-gray-700 rounded shadow-lg">
+            <div className="p-4 flex items-center justify-between relative border-b border-gray-700">
+              <h3 className="font-bold text-lg">
+                How to use Tailwind classNamees
+              </h3>
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+            </div>
+            <p className="p-4">
+              We'll dive into the most important Tailwind classNamees and use
+              them a TON.
+            </p>
+          </div>
+          <div className="col-span-2 border border-gray-700 rounded shadow-lg">
+            <div className="p-4 flex items-center justify-between relative border-b border-gray-700">
+              <h3 className="font-bold text-lg">
+                How to use Tailwind classNamees
+              </h3>
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+            </div>
+            <p className="p-4">
+              We'll dive into the most important Tailwind classNamees and use
+              them a TON.
+            </p>
+          </div>
+          <div className="col-span-2 border border-gray-700 rounded shadow-lg">
+            <div className="p-4 flex items-center justify-between relative border-b border-gray-700">
+              <h3 className="font-bold text-lg">
+                How to use Tailwind classNamees
+              </h3>
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+            </div>
+            <p className="p-4">
+              We'll dive into the most important Tailwind classNamees and use
+              them a TON.
+            </p>
+          </div>
+          <div className="col-span-3 border border-gray-700 rounded shadow-lg">
+            <div className="p-4 flex items-center justify-between relative border-b border-gray-700">
+              <h3 className="font-bold text-lg">
+                How to use Tailwind classNamees
+              </h3>
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+            </div>
+            <p className="p-4">
+              We'll dive into the most important Tailwind classNamees and use
+              them a TON.
+            </p>
+          </div>
+          <div className="col-span-3 border border-gray-700 rounded shadow-lg">
+            <div className="p-4 flex items-center justify-between relative border-b border-gray-700">
+              <h3 className="font-bold text-lg">
+                How to use Tailwind classNamees
+              </h3>
+              <div className="flex space-x-2">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+              </div>
+            </div>
+            <p className="p-4">
+              We'll dive into the most important Tailwind classes and use them a
+              TON.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
