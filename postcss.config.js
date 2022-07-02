@@ -3,6 +3,7 @@
 module.exports = () => ({
   plugins: [
     require("tailwindcss"),
+    require('autoprefixer'),
     // postcssPresetEnv({
     //   stage: 0,
     //   importFrom: "src/styles/global.module.css",
