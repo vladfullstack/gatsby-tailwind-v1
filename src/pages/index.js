@@ -396,12 +396,12 @@ const IndexPage = () => (
           <div className="text-6xl text-purple-800 font-bold">
             <span className="opacity-25">$</span>47
           </div>
-          <a
-            href="#"
+          <Link
+            to="#"
             className="block p-3 bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-400 text-yellow-800 hover:text-yellow-900 rounded shadow hover:shadow-2xl transition duration-300"
           >
             Buy the Course
-          </a>
+          </Link>
         </div>
 
         {/* <!-- right box --> */}
@@ -418,6 +418,57 @@ const IndexPage = () => (
             <strong className="font-bold text-white">Lifetime</strong> refund
             guarantee
           </p>
+        </div>
+      </div>
+    </div>
+    {/* <!-- ======================================= -->
+  <!-- modules/videos ======================================= -->
+  <!-- ======================================= --> */}
+    <div className="py-32 bg-gradient-to-b from-gray-700 to-gray-800">
+      <div className="container mx-auto px-10">
+        <div className="mb-10 text-center space-y-4">
+          <h2 className="text-4xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-br from-white to-purple-200 font-bold">
+            The Modules/Videos
+          </h2>
+          <p className="text-2xl text-gray-100">
+            9 hours of Tailwind learning in 18 modules and 73 videos.
+          </p>
+        </div>
+
+        <div className="max-w-3xl mx-auto text-gray-400">
+          <div className="p-6 bg-gray-800 bg-opacity-75 flex justify-between items-center rounded-t-lg">
+            <h4 className="text-3xl">Getting Started</h4>
+            <div className="flex space-x-8 text-center text-xl font-bold">
+              <div>
+                6 <span className="block text-sm font-normal">videos</span>
+              </div>
+              <div>
+                33 <span className="block text-sm font-normal">minutes</span>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-gray-800 bg-opacity-75 flex justify-between items-center">
+            <h4 className="text-3xl">Main Concepts</h4>
+            <div className="flex space-x-8 text-center text-xl font-bold">
+              <div>
+                11 <span className="block text-sm font-normal">videos</span>
+              </div>
+              <div>
+                67 <span className="block text-sm font-normal">minutes</span>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 bg-gray-800 flex justify-between items-center rounded-b-lg">
+            <h4 className="text-3xl">Layout</h4>
+            <div className="flex space-x-8 text-center text-xl font-bold">
+              <div>
+                4 <span className="block text-sm font-normal">videos</span>
+              </div>
+              <div>
+                37 <span className="block text-sm font-normal">minutes</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
