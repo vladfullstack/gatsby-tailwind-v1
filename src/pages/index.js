@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
+import { Link } from "gatsby"
 
 import * as styles from "./index.module.css"
 
@@ -15,7 +16,7 @@ const IndexPage = () => (
       // Boolean indicating whether this is an article:
       // article
     />
-    <section className={styles.wrapper}>
+    {/* <section className={styles.wrapper}>
       <h1 className={styles.heading}>Welcome to Gatsby and Azure</h1>
       <div>
         <p>Gatsby is a good framework to upskill your React!</p>
@@ -33,7 +34,9 @@ const IndexPage = () => (
           although we view this as the end form.
         </p>
       </div>
-    </section>
+    </section> */}
+
+
   </Layout>
 )
 

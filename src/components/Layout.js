@@ -13,11 +13,11 @@ import Header from "./Header"
 import Footer from "./Footer"
 
 // Styles
-import "../styles/reset.css"
+// import "../styles/reset.css"
 import "../styles/accessibility.css"
 import "../styles/global.module.css"
 import "../fonts/fonts.css"
-import * as styles from "./layout.module.css"
+// import * as styles from "./layout.module.css"
 
 const Layout = ({ children }) => {
   // Destructure query return down to site:
@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
         siteDescription={site.siteMetadata.defaultDescription}
         menuLinks={site.siteMetadata.menuLinks}
       />
-      <main id="primary" className={styles.site_main}>
+      <main id="primary">
         {children}
       </main>
       <Footer siteTitle={site.siteMetadata.defaultTitle} />
