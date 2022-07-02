@@ -472,6 +472,97 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    {/* <!-- ======================================= -->
+  <!-- faq ======================================= -->
+  <!-- ======================================= --> */}
+    <div id="faq" className="bg-gray-800 py-32 text-gray-400">
+      <div className="container mx-auto px-10">
+        <h2 className="mb-12 text-3xl text-center font-bold">
+          Frequently Asked Questions
+        </h2>
+
+        {/* <!-- grid of questions --> */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link to="#" className="text-blue-400 hover:underline">
+                Discord
+              </Link>
+            </p>
+          </div>
+
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link                
+                to="#" className="text-blue-400 hover:underline">Discord
+              </Link>
+            </p>
+          </div>
+
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link              
+                to="#" className="text-blue-400 hover:underline">Discord
+              </Link>
+            </p>
+          </div>
+
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link                
+                to="#" className="text-blue-400 hover:underline">Discord
+              </Link>
+            </p>
+          </div>
+
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link                
+                to="#" className="text-blue-400 hover:underline">Discord
+              </Link>
+            </p>
+          </div>
+
+          {/* <!-- question --> */}
+          <div className="p-8 border-2 border-gray-500 rounded-lg">
+            <h3 className="mb-3 text-gray-200 font-bold text-xl">
+              Is there course support?
+            </h3>
+            <p>
+              Yes! Let's chat in{" "}
+              <Link                
+                to="#" className="text-blue-400 hover:underline">Discord
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
