@@ -66,7 +66,7 @@ const Footer = ({ siteTitle }) => (
       <div
         className="pt-4 mt-16 md:flex justify-between border-t border-gray-300 text-sm text-center md:text-left space-y-4 md:space-y-0">
         {/* <!-- copyright --> */}
-        <div>Copyright &copy; 2020 - 4055</div>
+        <div>Copyright &copy; {(new Date().getFullYear())}</div>
         {/* <!-- links --> */}
         <div className="space-x-4">
           <Link to="#">Discord</Link>
