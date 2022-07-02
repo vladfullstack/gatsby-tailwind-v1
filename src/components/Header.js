@@ -79,7 +79,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
           </Link>
           <Link
             to="#"
-            className="hidden lg:inline-block p-3 bg-purple-300 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500"
+            className="hidden lg:inline-block p-3 bg-purple-400 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500"
           >
             Get the Course
           </Link>
