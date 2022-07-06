@@ -80,6 +80,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
           <Link
             to="#"
             className="hidden lg:inline-block p-3 bg-purple-400 hover:bg-purple-200 text-purple-700 hover:text-purple-600 rounded shadow hover:shadow-xl transition duration-500"
+            onClick={fnAlert}
           >
             Get the Course
           </Link>
@@ -101,7 +102,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
             Beginner{" "}
           </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-purple-600 to-purple-500">
-            Tailwind
+            Tailwind Demo
           </span>
         </h1>
 
@@ -117,6 +118,7 @@ const Header = ({ siteTitle, siteDescription, menuLinks }) => (
           className="inline-block mb-16 lg:mb-32 py-3 px-12 rounded shadow-lg hover:shadow-2xl 
           bg-gradient-to-br from-purple-500 to-purple-700 hover:to-purple-600 text-purple-100 
           hover:text-white font-bold text-lg tracking-wide transition duration-500"
+          onClick={fnAlert}
         >
           Get the Course
         </Link>
@@ -159,6 +161,11 @@ Header.defaultProps = {
   siteTitle: ``,
   siteDescription: ``,
   menuLinks: [],
+}
+
+const fnAlert = e => {
+  e.preventDefault()
+  alert("For demo purpose only.")
 }
 
 export default Header

@@ -159,15 +159,14 @@ const IndexPage = () => (
         <div className="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
           <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
             <p className="text-lg p-4 text-gray-700">
-              Getting Started with Tailwind on scotch.io and a 15 minute starter
-              YouTube video.
+            I'll show you some of the exciting new features added in Tailwind CSS v3.0
             </p>
 
             <iframe
               title="Getting Started with Tailwind on scotch.io"
               className="w-full rounded-b"
               height="315"
-              src="https://www.youtube.com/embed/6zIuAyLZPH0"
+              src="https://www.youtube.com/embed/mSC6GwizOag"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -175,15 +174,14 @@ const IndexPage = () => (
           </div>
           <div className="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
             <p className="text-lg p-4 text-gray-700">
-              I did a Build Your 1st Tailwind Site for Traversy Media on YouTube
-              also.
+            Tailwind CSS v3.0 is here, performance gains and workflow improvements.
             </p>
 
             <iframe
               title="Build Your 1st Tailwind Site"
               className="w-full rounded-b"
               height="315"
-              src="https://www.youtube.com/embed/6zIuAyLZPH0"
+              src="https://www.youtube.com/embed/TmWIrBPE6Bc"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
