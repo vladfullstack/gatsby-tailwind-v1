@@ -103,6 +103,8 @@ const Footer = ({ siteTitle }) => (
           <Link to="#">Discord</Link>
           <Link to="https://twitter.com/chris__sev">Twitter</Link>
           <Link to="#">YouTube</Link>
+          <Link to="https://portal.azure.com/">Azure</Link>
+
         </div>
       </div>
     </div>
